@@ -1,0 +1,334 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "Enrollment stats",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"2\\\": {\\\"program\\\": null, \\\"school\\\": null}}\", \"color_scheme\": null, \"filter_scopes\": {\"2\": {\"program\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"school\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"remote_id\": 3}",
+                "position_json": "{\"CHART-4KO6BAbLjk\":{\"children\":[],\"id\":\"CHART-4KO6BAbLjk\",\"meta\":{\"chartId\":5,\"height\":50,\"sliceName\":\"Total by School and Gender\",\"uuid\":\"f9848530-b1af-45ba-8f77-76dd4218bb38\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-ZTBXesHxC\"],\"type\":\"CHART\"},\"CHART-5FdjX8i9ln\":{\"children\":[],\"id\":\"CHART-5FdjX8i9ln\",\"meta\":{\"chartId\":7,\"height\":50,\"sliceName\":\"Gender Distribution by Program\",\"uuid\":\"390e716f-b967-4340-b05c-8a6b815b71ad\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-ZTBXesHxC\"],\"type\":\"CHART\"},\"CHART-bSlSXy5QI\":{\"children\":[],\"id\":\"CHART-bSlSXy5QI\",\"meta\":{\"chartId\":4,\"height\":50,\"sliceName\":\"Total Enrolled by School\",\"uuid\":\"2f0383ac-5046-406b-a27f-2ef1b5fc48f6\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-ZTBXesHxC\"],\"type\":\"CHART\"},\"CHART-d0cY4cD-8k\":{\"children\":[],\"id\":\"CHART-d0cY4cD-8k\",\"meta\":{\"chartId\":11,\"height\":50,\"sliceName\":\"Gender Distribution by Age\",\"uuid\":\"0300cf89-94ad-4fa8-8474-f1c7a5f3b52c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-jxJVYFGlz\"],\"type\":\"CHART\"},\"CHART-p5cLqUm38-\":{\"children\":[],\"id\":\"CHART-p5cLqUm38-\",\"meta\":{\"chartId\":2,\"height\":29,\"sliceName\":\"Filter\",\"uuid\":\"e5cc795d-e504-4cc6-8a4d-c85fe401c6ba\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-oXqZgiRAK\"],\"type\":\"CHART\"},\"CHART-qgtWUqfUgN\":{\"children\":[],\"id\":\"CHART-qgtWUqfUgN\",\"meta\":{\"chartId\":10,\"height\":50,\"sliceName\":\"Age Distribution\",\"uuid\":\"192fcb25-ae02-4a5d-9fe2-e556470f26a1\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R_dYenive\"],\"type\":\"CHART\"},\"CHART-tSnr-o5xtX\":{\"children\":[],\"id\":\"CHART-tSnr-o5xtX\",\"meta\":{\"chartId\":3,\"height\":47,\"sliceName\":\"Enrolled by Program\",\"uuid\":\"848add8b-9fe9-4bf3-927e-ae7395369ecb\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-zYVnGGNoVm\"],\"type\":\"CHART\"},\"CHART-wScBBV0DFI\":{\"children\":[],\"id\":\"CHART-wScBBV0DFI\",\"meta\":{\"chartId\":12,\"height\":50,\"sliceName\":\"Age Distribution by Program\",\"uuid\":\"bc74fd7b-2d26-40d1-9ef4-b567b2647176\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-jxJVYFGlz\"],\"type\":\"CHART\"},\"CHART-wiJnUQVe9S\":{\"children\":[],\"id\":\"CHART-wiJnUQVe9S\",\"meta\":{\"chartId\":6,\"height\":47,\"sliceName\":\"Total By Program and Gender\",\"uuid\":\"72a02213-d7cc-4fb7-9629-9c0813b5ad95\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-zYVnGGNoVm\"],\"type\":\"CHART\"},\"CHART-ytN1hbmYpK\":{\"children\":[],\"id\":\"CHART-ytN1hbmYpK\",\"meta\":{\"chartId\":9,\"height\":51,\"sliceName\":\"Gender Distribution\",\"uuid\":\"a88f7e77-307a-4de3-8cc5-d6b195dd41c3\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-R_dYenive\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-qfwEKlCSb2\",\"ROW-oXqZgiRAK\",\"ROW-R_dYenive\",\"ROW-zYVnGGNoVm\",\"ROW-ZTBXesHxC\",\"ROW-jxJVYFGlz\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Enrollment stats\"},\"type\":\"HEADER\"},\"MARKDOWN-KdKb-1Eij0\":{\"children\":[],\"id\":\"MARKDOWN-KdKb-1Eij0\",\"meta\":{\"code\":\"# Enrollment stats for Swedish Universities 1995-2021\\nData source: <a>https://www.uka.se/statistik--analys/hogskolan-i-siffror/statistik/statistikomrade.html?statq=https://statistik-api.uka.se/api/totals/97</a>\\n\\nThe data in this dashboard is only for the autumn semester.\\n\\nCode: coming github link\\n\",\"height\":19,\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-qfwEKlCSb2\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-R_dYenive\":{\"children\":[\"CHART-qgtWUqfUgN\",\"CHART-ytN1hbmYpK\"],\"id\":\"ROW-R_dYenive\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-ZTBXesHxC\":{\"children\":[\"CHART-bSlSXy5QI\",\"CHART-4KO6BAbLjk\",\"CHART-5FdjX8i9ln\"],\"id\":\"ROW-ZTBXesHxC\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-jxJVYFGlz\":{\"children\":[\"CHART-d0cY4cD-8k\",\"CHART-wScBBV0DFI\"],\"id\":\"ROW-jxJVYFGlz\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-oXqZgiRAK\":{\"children\":[\"CHART-p5cLqUm38-\"],\"id\":\"ROW-oXqZgiRAK\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-qfwEKlCSb2\":{\"children\":[\"MARKDOWN-KdKb-1Eij0\"],\"id\":\"ROW-qfwEKlCSb2\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-zYVnGGNoVm\":{\"children\":[\"CHART-wiJnUQVe9S\",\"CHART-tSnr-o5xtX\"],\"id\":\"ROW-zYVnGGNoVm\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 2,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"1__table\", \"date_filter\": false, \"extra_form_data\": {}, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"program\", \"key\": \"NlFfT9IJu\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"school\", \"key\": \"rNMr4Oakr\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"semester\", \"instant_filtering\": true, \"slice_id\": 2, \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 2, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"semester\",\"filters\":[],\"extras\":{\"time_grain_sqla\":null,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[],\"annotation_layers\":[],\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Filter",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 3,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"year\", \"groupby\": [\"program\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Total\", \"optionName\": \"metric_dzasjv8xkz5_bwi6wbb10z5\", \"sqlExpression\": \"SUM(number)\"}], \"order_desc\": true, \"row_limit\": 10000, \"slice_id\": 3, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 3, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"program\"],\"metrics\":[{\"expressionType\":\"SQL\",\"sqlExpression\":\"SUM(number)\",\"column\":null,\"aggregate\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Total\",\"optionName\":\"metric_dzasjv8xkz5_bwi6wbb10z5\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Enrolled by Program",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 4,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"year\", \"groupby\": [\"school\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Total\", \"optionName\": \"metric_c7hgwlmejkc_1rl6p7u51ic\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 10000, \"slice_id\": 4, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 4, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"school\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"number\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":12,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Total\",\"optionName\":\"metric_c7hgwlmejkc_1rl6p7u51ic\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Total Enrolled by School",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 5,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"gender\"], \"contribution\": false, \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"year\", \"groupby\": [\"school\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(number)\", \"optionName\": \"metric_c7hgwlmejkc_1rl6p7u51ic\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 10000, \"slice_id\": 5, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 5, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"school\",\"gender\"],\"metrics\":[{\"aggregate\":\"SUM\",\"column\":{\"column_name\":\"number\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":12,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_c7hgwlmejkc_1rl6p7u51ic\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Total by School and Gender",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 6,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"gender\"], \"contribution\": false, \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"year\", \"groupby\": [\"program\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(number)\", \"optionName\": \"metric_c7hgwlmejkc_1rl6p7u51ic\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 10000, \"slice_id\": 6, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 6, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"program\",\"gender\"],\"metrics\":[{\"aggregate\":\"SUM\",\"column\":{\"column_name\":\"number\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":12,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_c7hgwlmejkc_1rl6p7u51ic\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Total By Program and Gender",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 7,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"gender\"], \"contribution\": true, \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"year\", \"groupby\": [\"program\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(number)\", \"optionName\": \"metric_c7hgwlmejkc_1rl6p7u51ic\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 10000, \"slice_id\": 7, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 7, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"program\",\"gender\"],\"metrics\":[{\"aggregate\":\"SUM\",\"column\":{\"column_name\":\"number\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":12,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_c7hgwlmejkc_1rl6p7u51ic\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Gender Distribution by Program",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 9,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"contributionMode\": \"row\", \"datasource\": \"1__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"year\", \"groupby\": [\"gender\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(number)\", \"optionName\": \"metric_au3e9c6dlb8_3ir0xutl0ch\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 9, \"time_grain_sqla\": \"P1Y\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 9, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1Y\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"gender\"],\"metrics\":[{\"aggregate\":\"SUM\",\"column\":{\"column_name\":\"number\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":12,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_au3e9c6dlb8_3ir0xutl0ch\",\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"SUM\",\"column\":{\"column_name\":\"number\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":12,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_au3e9c6dlb8_3ir0xutl0ch\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"gender\"],\"aggregates\":{\"SUM(number)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},{\"operation\":\"contribution\",\"options\":{\"orientation\":\"row\"}},null]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Gender Distribution",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 10,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"contributionMode\": \"row\", \"datasource\": \"1__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"year\", \"groupby\": [\"age\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 100, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(number)\", \"optionName\": \"metric_r4gbz6pzz2_qpkq90fuwec\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"slice_id\": 10, \"time_grain_sqla\": \"P1Y\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 10, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1Y\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"age\"],\"metrics\":[{\"aggregate\":\"SUM\",\"column\":{\"column_name\":\"number\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":12,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_r4gbz6pzz2_qpkq90fuwec\",\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"SUM\",\"column\":{\"column_name\":\"number\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":12,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"BIGINT\",\"type_generic\":0,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_r4gbz6pzz2_qpkq90fuwec\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[null,null,null,{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"age\"],\"aggregates\":{\"SUM(number)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false}},{\"operation\":\"contribution\",\"options\":{\"orientation\":\"row\"}},null]}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Age Distribution",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 11,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"gender\"], \"contribution\": true, \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"year\", \"groupby\": [\"age\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(number)\", \"optionName\": \"metric_om02v2qw33_7jxjctajchq\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 10000, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 11, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"age\",\"gender\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":12,\"column_name\":\"number\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"BIGINT\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_om02v2qw33_7jxjctajchq\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Gender Distribution by Age",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.enrollment",
+                            "datasource_type": "table",
+                            "id": 12,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"age\"], \"contribution\": true, \"datasource\": \"1__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"year\", \"groupby\": [\"program\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(number)\", \"optionName\": \"metric_jxevebtjdsb_gxd4w3y90ya\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": 10000, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 12, \"datasource_name\": \"enrollment\", \"schema\": \"public\", \"database_name\": \"superset\"}",
+                            "query_context": "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"year\",\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"program\",\"age\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":12,\"column_name\":\"number\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"BIGINT\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(number)\",\"optionName\":\"metric_jxevebtjdsb_gxd4w3y90ya\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Age Distribution by Program",
+                            "viz_type": "dist_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-07T16:22:59"
+                            },
+                            "column_name": "semester",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 7,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TEXT",
+                            "uuid": "d859b4c3-d953-4a78-8afd-90b86de9bb1b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "column_name": "school",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 8,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TEXT",
+                            "uuid": "61092b81-af3e-4254-84c2-7780789df2f3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "column_name": "program",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 9,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TEXT",
+                            "uuid": "839a6108-4da1-4102-a6d1-1f032c658661",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "column_name": "gender",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 10,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TEXT",
+                            "uuid": "87f1292e-dc3f-45b1-b7e5-3babddb7a8c4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "column_name": "age",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 11,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TEXT",
+                            "uuid": "ddaadd95-708f-4fe7-9bdc-dc0bf50dbf75",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "column_name": "number",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-03T06:52:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 12,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "BIGINT",
+                            "uuid": "36fec98c-0c8d-4744-8438-1bf5e0151ae9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-11-07T12:02:53"
+                            },
+                            "column_name": "year",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-11-07T12:02:53"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 21,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "8f0cfc07-4d2b-46fe-b02b-e7dff763aca0",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [],
+                "offset": 0,
+                "params": "{\"remote_id\": 1, \"database_name\": \"superset\"}",
+                "schema": "public",
+                "sql": "",
+                "table_name": "enrollment",
+                "template_params": null
+            }
+        }
+    ]
+}

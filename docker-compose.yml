@@ -1,0 +1,52 @@
+version: "3.6"
+services:
+  superset_pi:
+    image: superset_pi
+    restart: always
+    container_name: superset_pi
+    depends_on:
+      - superset_db
+    environment: 
+      - PG_DATABASE=superset
+      - PG_USER=postgres
+      - PG_PASSWORD=a_strong_postgrespassword
+      - PG_HOST=superset_db
+      - PG_PORT=5433
+    ports:
+      - "8088:8088"
+    volumes:
+      - ./dashboards:/dashboards
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - traefik_proxy
+      - dashboard
+    labels:
+      - "traefik.enable=true"
+      ## HTTP Routers
+      - "traefik.http.routers.superset.entrypoints=https"
+      - "traefik.http.routers.superset.rule=Host(`superset.$DOMAINNAME`)"
+      - "traefik.http.routers.superset.tls=true"
+
+  superset_db:
+    image: postgres:13.1
+    container_name: superset_db
+    restart: always
+    networks:
+      - dashboard
+    environment:
+      POSTGRES_PASSWORD: a_strong_postgrespassword
+      POSTGRES_DB: superset
+    volumes:
+      - ./dbdata:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+
+networks:
+  traefik_proxy:
+    external:
+      name: traefik_proxy
+  dashboard:
+    external:
+      name: dashboard
